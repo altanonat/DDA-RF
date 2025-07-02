@@ -1,3 +1,7 @@
+# Authors of the Project: 
+
+Sezer Karapınar and Altan Onat
+
 # Data-Driven Modeling of the Rabinovich-Fabrikant System: EDMD, SINDy, and ANN
 
 This repository contains MATLAB implementations of three data-driven modeling techniques — **Extended Dynamic Mode Decomposition (EDMD)**, **Sparse Identification of Nonlinear Dynamical Systems (SINDy)**, and **Artificial Neural Networks (ANN)** — applied to the **Rabinovich-Fabrikant** dynamical system.
@@ -37,4 +41,4 @@ This project is released under the MIT License.
 
 ## Contact
 
-For questions, suggestions, or collaborations, feel free to open an issue or contact the maintainer v
+For questions, suggestions, or collaborations, feel free to open an issue or contact the maintainer (Altan Onat via altanonat@eskisehir.edu.tr)
