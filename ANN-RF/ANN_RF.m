@@ -86,7 +86,7 @@ for k = 1:num_initial_points
     X_pred = predict(net, X_in)';
     X_true_clipped = X_true(:,1:end-1);
 
-    rmse = sqrt(mean(vecnorm(X_pred - X_true_clipped).^2));
+    rmse = sqrt(mean(sum((X_pred - X_true_clipped).^2, 1)));
     all_X_true{k} = X_true_clipped;
     all_X_pred_nn{k} = X_pred;
     all_rmse_nn(k) = rmse;
